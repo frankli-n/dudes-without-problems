@@ -34,36 +34,39 @@
     <link href="lightbox.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-  <a class="navbar-brand" href="#"><img id=logo src="pics/logo.png"></a>
-
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#">Dudes Without Problems</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-    <ul class="navbar-nav mr-auto ">
-      <li class="nav-item active">
-        <a class="nav-link" href="https://www.instagram.com/domestic_accessories/" target="_blank"><img id=logo src="pics/insta.png"></span></a>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <!-- <a class="nav-link" href="#">Meet The Team</a> -->
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://www.pornhub.com/channels/dancingbear" target="_blank"><img id=logo src="pics/dancingbear.png" ></a>
+        <a class="nav-link" href="#">Discography</a>
       </li>
-      <!-- <li class="nav-item">
-        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-      </li> -->
-      <!-- <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Meet The Team
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" onclick="showAtticus()">Atticus</a>
+          <a class="dropdown-item" href="#" onclick="showFrankie()">Frankie</a>
+          <a class="dropdown-item" href="#" onclick="showLuke()">Luke</a>
+<!--           <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Instruments</a> -->
         </div>
+      </li>
+<!--       <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
       </li> -->
     </ul>
-    <!-- <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+<!--     <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
     </form> -->
   </div>
 </nav>
@@ -77,106 +80,40 @@
 <div class="container">
   <div class="row">
 
-    <div id="bb" class="col-lg-4 col-md-6">
-      <img id='bb-img' class='clothes' src="pics/frankie.png" onclick="changeBushBasha()">
-      <div class="title">The Bush Basha</div>
+
+
+
+    <div id='dwp' class="col-lg-12">
+<!--       <img id='dwp-img' class='clothes' src="pics/dwp2.png" onclick="changeDudesWithoutProblems()"> -->
+      <!-- <div class="title">Dudes&nbsp&nbsp&nbspWithout&nbsp&nbsp&nbspProblems</div> -->
+
       <div class="btn-group">
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-bb price" onClick="window.open('https://www.paypal.me');">
-          $35
+        <button type="button" class="btn btn-sm btn-outline-white price" onClick="window.open('https://paypal.me/bolgusfund');">
+          SEND
         </button>
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-bb price"onClick="window.open('https://www.paypal.me');">
-          BUYNOW
+        <button type="button" class="btn btn-sm btn-outline-white price"onClick="window.open('https://paypal.me/bolgusfund');">
+          DOLLARS
         </button>  
       </div>
-      <audio id="yonder" class="d" src="music/yonder.mp3" controls></audio>
-    </div>
 
-
-    <div id='dwp' class="col-lg-4 col-md-6">
-      <img id='dwp-img' class='clothes' src="pics/dwp.png" onclick="changeDudesWithoutProblems()">
-      <div class="title">The Dude Without Problems</div>
-      <div class="btn-group">
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-dwp price" onClick="window.open('https://www.paypal.me');">
-          $35
-        </button>
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-dwp price"onClick="window.open('https://www.paypal.me');">
-          BUYNOW
-        </button>  
+      <div>
+        <iframe src="https://open.spotify.com/embed/artist/4LEiUm1SRbFMgfqnQTwUbQ" width="300" height="80" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
       </div>
-      <audio class="e" src="music/howtosavealife.mp3" controls></audio>
-    </div>
-
-
-    <div id='fcb' class="col-lg-4 col-md-6">
-      <img id='fcb-img' class='clothes' src="pics/grandma.png" onclick="changeFuccboi()">
-      <div class="title">The Fuccboi</div>
-      <div class="btn-group">
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-fcb price" onClick="window.open('https://www.paypal.me');">
-          $35
-        </button>
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-fcb price"onClick="window.open('https://www.paypal.me');">
-          BUYNOW
-        </button>  
+      <div >
+        <img class='boys' id="atticushead" src="pics/atticuscloud.png">
+        <img class='boys' id="frankiehead" src="pics/frankiecloud.png">
+        <img class='boys' id="lukehead"src="pics/lukecloud.png">
       </div>
-      <audio class="fuccboi" src="music/duckduck.mp3" controls></audio>
-    </div>  
 
-
-    <div id='rcl' class="col-lg-4 col-md-6 ">
-      <img class='clothes' src="pics/recline.png">
-      <div class="title">The Recline</div>
-      <div class="btn-group">
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-rcl price" onClick="window.open('https://www.paypal.me');">
-          $45
-        </button>
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-rcl price"onClick="window.open('https://www.paypal.me');">
-          BUYNOW
-        </button>  
-      </div>
-      <audio class="recline" src="music/whiteflag.mp3" controls></audio>
-    </div>
-
-
-    <div id='sss' class="col-lg-4 col-md-6 ">
-      <img id ='sss-img' class='clothes' src="pics/session.png" onclick="changeSession()">
-      <div class="title">The Session</div>
-      <div class="btn-group">
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-sss price" onClick="window.open('https://www.paypal.me');">
-          $45
-        </button>
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-sss price"onClick="window.open('https://www.paypal.me');">
-          BUYNOW
-        </button>  
-      </div>
-      <audio class="session" src="music/blunt.mp3" controls></audio>
-    </div>
-
-    <div id='gsk' class="col-lg-4 col-md-6 ">
-      <img src="pics/gymshark.png" class='clothes' id='gsk-img' onclick="changeGymShark()" >
-      <div class="title">The Gym Shark</div>
-      <div class="btn-group">
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-gsk price" onClick="window.open('https://www.paypal.me');">
-          $45
-        </button>
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-gsk price"onClick="window.open('https://www.paypal.me');">
-          BUYNOW
-        </button>  
+      <div>
+        
       </div>      
-      <audio class="gymshark" src="music/backroad.mp3" controls></audio>
+      <div >
+        
+      </div>
     </div>
 
-    <div id='vyg' class="col-lg-4 col-md-6 ">
-      <img id='vyg-img' class='clothes' src="pics/voyageur.png" onclick="changeVoyageur()"">
-      <div class="title">The Voyageur</div>
-      <div class="btn-group">
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-vyg price" onClick="window.open('https://www.paypal.me');">
-          $20
-        </button>
-        <button type="button" onClick="window.open('https://www.paypal.me');" class="btn btn-sm btn-outline-vyg price"onClick="window.open('https://www.paypal.me');">
-          BUYNOW
-        </button>  
-      </div>       <audio class="voyageur" src="music/einani.mp3" controls></audio>
-    </div>
+
 
   </div>
 

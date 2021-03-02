@@ -2907,14 +2907,14 @@ fieldset:disabled a.btn {
 	background-color: #506644;
 	border-color: #506644
 }
-.btn-outline-dwp {
+.btn-outline-white {
 	color: #2F3152;
 	border-color: #2F3152
 }
-.btn-outline-dwp:hover {
+.btn-outline-white:hover {
 	color: #fff;
 	background-color: #2F3152;
-	border-color: #2F3152
+	border-color: #fff
 }
 .btn-outline-fcb {
 	color: pink;
@@ -6926,7 +6926,7 @@ button.bg-light:hover {
 }
 
 .bg-dark {
-	background-color: #1e1e1e!important
+	background-color: rgba(255,255,255,0.1)!important;
 }
 
 a.bg-dark:focus,

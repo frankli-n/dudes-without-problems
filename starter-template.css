@@ -1,6 +1,10 @@
+
+
 body {
   padding-top: 5rem;
-  background: #111;
+  background-image: url('pics/vancouver.jpg');
+  background-size: cover;
+
 }
 
 .starter-template {
@@ -21,7 +25,7 @@ audio {
 
 audio::-webkit-media-controls-enclosure {
     border-radius: 5px;
-    opacity: .3;
+    opacity: .77;
 }
 audio::-webkit-media-controls-enclosure:hover {
     border-radius: 15px;
@@ -51,6 +55,7 @@ audio::-webkit-media-controls-timeline{
 }
 #dwp {
   color: #2F3152
+  background-color:yellow;
 }
 #fcb {
   color: pink
@@ -92,21 +97,24 @@ audio.session::-webkit-media-controls-panel{
 }
 
 .clothes {
-  height: 250px;
+  height: 400px;
   object-fit: contain;
   display: block;
   margin: auto;
   margin-bottom: 0px;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 
 
 .title{
-  margin-top: 4px;
+  margin-top: 50px;
+  margin-bottom: 13px;
   color: white;
+  font-weight: bold;
 }
 .price {
+  margin-top: 50px;
   margin-bottom: 20px;
   font-weight: bold;
   /*color: #506644;*/
@@ -127,4 +135,21 @@ audio.session::-webkit-media-controls-panel{
 
 #end {
   height: 50px;
+}
+
+#atticushead {
+  visibility: hidden;
+}
+
+#frankiehead {
+  visibility: hidden;
+}
+
+#lukehead {
+  visibility: hidden;
+}
+
+.boys {
+  height: 200px;
+  object-fit: cover;
 }
